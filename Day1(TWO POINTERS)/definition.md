@@ -89,38 +89,5 @@ Reason: only **one traversal**.
 
 ---
 
-## 6️⃣ One Small Code Example (they may ask)
-
-```java
-int left = 0;
-int right = arr.length - 1;
-
-while(left < right){
-    int sum = arr[left] + arr[right];
-
-    if(sum == target){
-        System.out.println(arr[left] + " " + arr[right]);
-        break;
-    }
-    else if(sum < target){
-        left++;
-    }
-    else{
-        right--;
-    }
-}
-```
-
----
-
-## 🎯 If interviewer asks suddenly
-
-Just say:
 
 > Two Pointers is an algorithmic technique where two indices traverse an array or string simultaneously to efficiently solve problems like pair sum or subarray conditions, reducing time complexity from O(n²) to O(n).
-
-
-
----
-
-If you want, I can also show you the **5 most common Two Pointer interview questions** that show up in **Google / Amazon / coding interviews**. They repeat a lot. 🔥
