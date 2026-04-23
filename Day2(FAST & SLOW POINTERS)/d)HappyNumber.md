@@ -1,7 +1,7 @@
 
 https://leetcode.com/problems/happy-number/   
 
-#202 leetoce
+#202 leetcode
 ---
 
 # 1️⃣ Question
