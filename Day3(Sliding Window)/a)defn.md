@@ -1,5 +1,91 @@
 
+
 ---
+
+# 📘 **Sliding Window Pattern — IMPORTANT POINTS**
+
+---
+
+### 🔹 **Definition**
+
+* Used for **contiguous subarrays / substrings**
+* Uses **two pointers (start, end)** to form a **window**
+* Window **slides forward**
+* Instead of recalculating → **add new element + remove old element**
+* Can be:
+
+  * **Fixed size**
+  * **Variable size**
+
+---
+
+### 🔹 **Where to Apply**
+
+* Problems with **subarrays / substrings (continuous)**
+* Need to find:
+
+  * **sum / max / min**
+  * **count / frequency**
+* When range **moves step-by-step**
+
+---
+
+### 🔹 **Types**
+
+#### ✅ **1. Fixed Size Window**
+
+* Window size = **k**
+* Steps:
+
+  * Add new element
+  * Remove left element
+  * Update answer
+
+---
+
+#### ✅ **2. Variable Size Window**
+
+* Window **expands + shrinks**
+* Used when condition like:
+
+  * **sum ≥ target**
+  * **unique elements**
+* Expand → check → **shrink if needed**
+
+---
+
+### 🔹 **How to Identify (VERY IMPORTANT)**
+
+👉 If you see:
+
+* **subarray / substring**
+* **contiguous / continuous**
+* **max / min / longest / shortest**
+* Large constraints (**n ≈ 10⁵**)
+* Brute force = **O(n²)** ❌
+
+💥 Then → **Sliding Window**
+
+---
+
+### 🔹 **Benefits**
+
+* ⏱ **O(n)** time (instead of O(n²))
+* 🧠 Efficient (no recomputation)
+* 🔄 Works for both types
+* 📊 Good for real-time/stream data
+
+---
+
+# ⚡ **1-LINE MEMORY**
+
+```text
+Contiguous + optimize → Sliding Window
+```
+
+---
+
+
 
 # 🧠 SLIDING WINDOW (WITH COMPLEXITY)
 
