@@ -30,6 +30,14 @@ O(n) per query ❌
 ```text
 O(1) per query ✅
 ```
+$O(n)$ is a loop; $O(1)$ is a shortcut.
+
+* $O(n)$ (Counting): You count every item one by one. More items = more time.
+* $O(1)$ (Lookup): You jump straight to the answer. More items = same time.
+
+Bottom line: $O(n)$ works harder; $O(1)$ works smarter.
+Want to see the one-line code that makes $O(1)$ happen?
+
 
 ---
 
